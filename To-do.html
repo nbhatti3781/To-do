@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Scheduling Website</title>
+  <link href="To-do.css" rel="stylesheet" type="text/css" />
+  <link rel = "stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.0/css/all.css" />
+</head>
+
+<body>
+
+   <div id="nav">
+      <div class="To-do">
+        <h3> <div id="namePerson"></div>'s To-Do List </div>
+        </h3>
+    <div class="buttonBar">
+       <div class = "verticalLine"> </div>
+      <div class="button">
+        <a href="index.html"><h3>Home</h3></a>
+      </div>
+      <div class = "verticalLine"> </div>
+      
+        
+<!--            <div id="logoutButton">
+        <button>Logout</button>
+      </div> -->
+      </div>
+      </div>
+  </div>
+<div class= "container">
+<h1 class= "center"> <div id=namePerson></div> My To-do List</h1>
+  <div class="flex">
+    <input type= "text" id="task"  placeholder="Enter Task">
+    <button onclick="addTask()">Submit</button>
+  </div>
+  <table>
+    <tr>
+      <td>Task</td>
+      <td> Status</td>
+      <td class= "center">#</td>
+    </tr>
+    <tr>
+      <td> Steal bananas from the store. </td>
+      <td class= "finished"> Finished </td>
+      <td class= "fa fa-trash"> </td>
+      
+    </tr>
+    <tr> 
+      <td> Go to the mall. </td>
+      <td class= "todo"> Todo </td>
+      <td class= "fa fa-trash"> </td>
+    </tr>
+
+    <tr> 
+      <td> Go to the gym. </td>
+      <td class= "in-progress"> In-Progress </td>
+      <td class= "fa fa-trash"> </td>
+    </tr>
+  </table>
+
+
+   <script type="application/javascript" src="To-do.js"></script>
+  
+</body>
+</html>

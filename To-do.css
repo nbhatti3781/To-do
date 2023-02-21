@@ -1,0 +1,186 @@
+#nav {
+  padding: 7px 0px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #d4c6b5;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+
+.To-do{
+  text-align: left;
+  font-family: "Roboto";
+  font-weight: 700;
+  color: white;
+  font-size: 2em;
+  margin-left: 30px;
+  
+}
+
+.button {
+  background-color:#d4c6b5;
+  border: none;
+  font-family: "Roboto";
+  padding: 0px 30px;
+  text-align: right;
+  text-decoration: none;
+  font-size: 2em;
+  
+}
+.verticalLine {
+  border-left: thin solid white;
+}
+.buttonBar {
+  display: flex;
+  justify-content: right;
+/*   padding: 10px; */
+}
+
+
+a {
+  line-height: 1.4;
+  text-decoration: none;
+  color: white;
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #695959;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  text-decoration: none;
+}
+
+
+body{
+
+  font-family: Arial;
+  
+}
+
+.container {
+  width: 90%;
+  max-width:500px;
+  margin: 0 auto;
+  margin-top: 14vh;
+}
+h1 {
+  margin-bottom:40px;
+}
+.center {
+  text-align: center;
+}
+
+.flex{
+display: flex;
+justify-content: center;
+}
+
+inpur {
+
+  width: 75%;
+  border: 1px solid #D3D3D3;
+  border-right:none;
+  outline: none;
+  padding: 10px;
+}
+
+input:focus {
+
+border: 1px solid #cec7e1;
+}
+
+#task {
+  border: 1px solid #cec7e1;
+}
+
+
+button{
+  width:25%;
+  border:none;
+  color: white;
+  background: #beb8cc;
+  cursor: pointer;
+  font-size:16px;
+}
+
+table{
+  margin-top: 40px;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  
+}
+
+table td, table th{
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table td:nth-child(2), table td:nth-child(3){
+  cursor: pointer;
+}
+
+.fa-trash {
+  color: #505050;
+  font-size: 18px;
+  display: table-cell;
+  text-align: center;
+}
+
+.finished {
+  color: #28a745;
+  text-decoration: line-through;
+}
+
+.in-progress{
+  color: #6682de;
+}
+
+  .todo {
+  color: #dc3545; 
+  }
+
+
+a {
+  line-height: 1.4;
+  text-decoration: none;
+  color: white;
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9c7649;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  text-decoration: none;
+}
+
+#namePerson {
+  display:inline-block;
+}
+
